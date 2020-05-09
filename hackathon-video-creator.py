@@ -46,8 +46,12 @@ goal = getTranslation(baseUrl, text)
 text = "This is how "+config['name']+" works First "+config['steps']['step_one']+' then '+ config['steps']['step_two']+' finally '+config['steps']['step_three']
 steps = getTranslation(baseUrl, text)
 
+# Demo time
+text = "And now it is time for a demo! Let's see how it works..."
+demo = getTranslation(baseUrl, text)
+
 # Combine all
-mytext = introduction+". "+goal+". "+steps
+mytext = introduction+". "+goal+". "+steps+". "+demo
 
 # Passing the text and language to the engine, 
 # here we have marked slow=False. Which tells 

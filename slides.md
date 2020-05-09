@@ -1,7 +1,8 @@
 # Hackathon Video Generator
 
-<img src="assets/bananas.jpg" height="550px" width="100%" />
-<em style="float:right;"> A project by team texasTopf </em>
+<img src="assets/team-image.jpg" height="550px" width="100%" />
+
+<em style="float:right;"> by Team Scripting Quarantino </em>
 
 ---
 # We present to you...
@@ -11,7 +12,7 @@
 ---
 # The issue...
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Albert_Einstein_and_Charlie_Chaplin_-_1931.jpg" height="600px" width="100%" />
+<img src="assets/giphy.gif" height="600px" width="100%" />
 
 ---
 
@@ -20,22 +21,22 @@
 ---
 
 # Three simple steps...
-## 1
-## []()
-## []()
+### 1 - It reads in a config file that contains all information relevant to your project
+### []()
+### []()
 
 ---
 
 # Three simple steps...
-## 1
-## 2
-## []()
+### 1 - It reads in a config file that contains all information relevant to your project
+### 2 - It automatically generates the audio and the slides you need for your video
+### []()
 
 ---
 # Three simple steps...
-## 1
-## 2
-## 3
+### 1 - It reads in a config file that contains all information relevant to your project
+### 2 - It automatically generates the audio and the slides you need for your video
+### 3 - Your beautiful video is ready to be shown to the world
 
 ---
 
@@ -58,6 +59,8 @@
 ---
 
 # Thank you!
+<img src="assets/thank-you.gif" height="550px" width="100%" />
+_And a special thanks to Hacklarious for organising this wonderful hackathon._
 
 
 

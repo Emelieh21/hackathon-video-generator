@@ -25,3 +25,30 @@ Hackathon Video Generator works in the following way:
 1. It takes an input configuration yaml file which contains all necessary details about the project & which language the video should be in. Often, most information can be copy pasted from your gitlab repo, if it is properly documented
 2. It looks for images based on keyword extraction, that it can use in the presentation.
 3. It generates an mp3 and slides that can directly be used for your video.
+
+### Technical setup
+
+Our solution works with a python script ([hackathon-video-creator.py](hackathon-video-creator.py)) to generate the video audio and an R script ([generate-slides.R](generate-slides.R)) to generate the slides.
+
+The details about the hackathon project can be specified in the [config.yaml](config.yaml) file. 
+
+Once that is done, you can generate the markdown for the slides by running:
+
+```R
+R generate-slides.R
+```
+For this you need to have R and the yaml package installed. You also need a Giphy API key.
+
+This fills in the markdown template with the hackathon details, to generate the slides, run:
+
+```bash
+darkslide slides.md -i
+```
+For this command you need python & the darkslide package (`pip install darkslide`) for more info see [link](https://pypi.org/project/darkslide/).
+
+To generate the mp3 with the audio, run:
+
+```python
+python hackathon-video-creator.py
+```
+This script requires the following packages installed: [...]
