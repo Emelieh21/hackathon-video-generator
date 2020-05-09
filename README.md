@@ -1,6 +1,6 @@
 # Hackathon Video Generator
 
-By team _TexasTopf_ for the Imaginary Online Hackathon of May 2020
+By team _ScriptinQuarantino_ for the Hacklarious Hackathon 2020
 
 ### Introduction
 Everytime Jaime and I join a hackathon, we need to **calculate half a day or even a full day for making a short video about our hackathon project**. It is lots of fun, but in general we always end up using a similar concept:
@@ -16,6 +16,8 @@ Everytime Jaime and I join a hackathon, we need to **calculate half a day or eve
 And in the background we put a suitable, royalty free commercial song that makes everything sound credibe.
 
 With **Hackathon Video Generator** we want to **save ourselves a bit of time that we have before the hackathon deadlines**, so we can use it on optimizing our solutions instead.
+
+Now we had less than 20 hours to figure out how to finish this hackathon project... if only we had a solution that could make the video for us so we would have enough time?
 
 ### How it works
 Hackathon Video Generator works in the following way:
