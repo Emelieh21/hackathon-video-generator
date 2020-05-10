@@ -1,5 +1,129 @@
-local
+# Compiled source and executables #
+###################################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.iml
+
+# OS generated files #
+######################
 .DS_Store
 .DS_Store?
 ._*
-*/local
+.Spotlight-V100
+.Trashes
+*.icloud
+ehthumbs.db
+Thumbs.db
+
+# npm modules #
+###############
+node_modules/*
+
+# Python-related files #
+########################
+*.pyc
+.tox
+**.egg-info
+**Version.py
+__pycache__/
+venv/
+
+# Prerequisites #
+#################
+*.d
+
+# Object files #
+################
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output #
+#################
+*.ilk
+*.map
+*.exp
+
+# Libraries #
+#############
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs) #
+######################################
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Debug files #
+###############
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Precompiled Headers #
+#######################
+*.gch
+*.pch
+
+# Kernel module compile results #
+#################################
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Miscellaneous #
+#################
+.Rhistory
+*.history
+Debug/
+.settings/
+.cproject
+.project
+build/
+models/
+.cache/
+config.yaml
+.token
+.token_prod
+.token_stg
+dev/
+dummy-app/rsconnect/
+.vscode/
+app/rsconnect/
+local/
