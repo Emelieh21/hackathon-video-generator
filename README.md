@@ -1,4 +1,9 @@
-# Hackathon Video Generator
+<p align="center">
+	<img src="assets/logo.png" alt="drawing" width="160"/>
+</p>
+<h1 align="center">
+  Hackathon Video Generator
+</h1>
 
 By team _ScriptinQuarantino_ for the Hacklarious Hackathon 2020
 
