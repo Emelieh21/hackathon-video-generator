@@ -1,13 +1,13 @@
 # Hackathon Video Generator
 
-<img src="assets/team-image.jpg" height="550px" width="100%" />
+<img src="assets/team-logo.png" height="550px" width="100%" />
 
-<em style="float:right;"> by Team Scripting Quarantino </em>
+<em style="float:right;"> by Team ScriptinQuarantino </em>
 
 ---
 # We present to you...
 
-<img src="assets/logo.png" height="600px" width="100%" />
+<img src="assets/logo.png" height="521px" width="521px" />
 
 ---
 # The issue...
@@ -19,42 +19,32 @@
 # How our solution works
 
 ---
-
 # Three simple steps...
-### 1 - It reads in a config file that contains all information relevant to your project
-### []()
-### []()
-
----
-
-# Three simple steps...
-### 1 - It reads in a config file that contains all information relevant to your project
-### 2 - It automatically generates the audio and the slides you need for your video
-### []()
+<ol style='font-family:"Tahoma";margin-left:52px;width:85%;height:450px'>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>It reads in a config file that contains all information relevant to your project</li>
+</ol>
 
 ---
 # Three simple steps...
-### 1 - It reads in a config file that contains all information relevant to your project
-### 2 - It automatically generates the audio and the slides you need for your video
-### 3 - Your beautiful video is ready to be shown to the world
+<ol style='font-family:"Tahoma";margin-left:52px;width:85%;height:450px'>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>It reads in a config file that contains all information relevant to your project</li>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>It automatically generates the audio and the slides you need for your video</li>
+</ol>
 
 ---
+# Three simple steps...
+<ol style='font-family:"Tahoma";margin-left:52px;width:85%;height:450px'>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>It reads in a config file that contains all information relevant to your project</li>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>It automatically generates the audio and the slides you need for your video</li>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>Your beautiful video is ready to be shown to the world</li>
+</ol>
 
+---
 # Time for a demo!
 
 <video width="100%" height="600" controls>
-  <source src="assets/demo.mp4" type="video/mp4">
+  <source src="assets/demo.mov" type="video/mp4">
 </video>
-
----
-
-# How it was set up
-
----
-
-# Solution Architecture
-
-<img src="assets/solution-architecture.png" height="600px" width="100%" />
 
 ---
 

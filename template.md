@@ -1,13 +1,13 @@
 # PROJECT_NAME
 
-<img src="assets/team-image.jpg" height="550px" width="100%" />
+<img src="assets/team-logo.png" height="550px" width="100%" />
 
 <em style="float:right;"> by TEAM_NAME </em>
 
 ---
 # We present to you...
 
-<img src="assets/logo.png" height="600px" width="100%" />
+<img src="assets/logo.png" height="521px" width="521px" />
 
 ---
 # The issue...
@@ -19,42 +19,32 @@
 # How our solution works
 
 ---
-
 # Three simple steps...
-### 1 - STEP_ONE
-### []()
-### []()
-
----
-
-# Three simple steps...
-### 1 - STEP_ONE
-### 2 - STEP_TWO
-### []()
+<ol style='font-family:"Tahoma";margin-left:52px;width:85%;height:450px'>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>STEP_ONE</li>
+</ol>
 
 ---
 # Three simple steps...
-### 1 - STEP_ONE
-### 2 - STEP_TWO
-### 3 - STEP_THREE
+<ol style='font-family:"Tahoma";margin-left:52px;width:85%;height:450px'>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>STEP_ONE</li>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>STEP_TWO</li>
+</ol>
 
 ---
+# Three simple steps...
+<ol style='font-family:"Tahoma";margin-left:52px;width:85%;height:450px'>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>STEP_ONE</li>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>STEP_TWO</li>
+<li style='font-size:36px;font-weight:700;margin-bottom:23px'>STEP_THREE</li>
+</ol>
 
+---
 # Time for a demo!
 
 <video width="100%" height="600" controls>
-  <source src="assets/demo.mp4" type="video/mp4">
+  <source src="assets/demo.mov" type="video/mp4">
 </video>
-
----
-
-# How it was set up
-
----
-
-# Solution Architecture
-
-<img src="assets/solution-architecture.png" height="600px" width="100%" />
 
 ---
 

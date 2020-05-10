@@ -1,6 +1,10 @@
-# For calling the translate api
+# General dependencies
 import json
 import urllib
+import random
+import subprocess
+import sys
+import fnmatch
 
 # Import the required module for text 
 # to speech conversion 
@@ -63,5 +67,10 @@ myobj = gTTS(text=mytext, lang=language, slow=False)
 # welcome 
 myobj.save("welcome.mp3") 
 
+# Pick a random bensound song, I have them in a local folder because I don't want to push the mp3s to git
+songList = fnmatch.filter(os.listdir("local"),"*.mp3")
+subprocess.Popen(["afplay", "local/"+random.choice(songList)], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+print('Continuing script...')
 # Playing the converted file 
-os.system("afplay welcome.mp3") 
+os.system("afplay -v 10 welcome.mp3") 
+
