@@ -1,0 +1,10 @@
+name: "Hackathon Video Generator"
+team: "Team ScriptinQuarantino"
+language: "en"
+objective: "save time in hackathons by automatically generating the video for the hackathon project"
+objective_keyword: "clock"
+steps: 
+  step_one: "It reads in a config file that contains all information relevant to your project"
+  step_two: "It automatically generates the audio and the slides you need for your video"
+  step_three: "Your beautiful video is ready to be shown to the world"
+organizer: "Hacklarious" 
