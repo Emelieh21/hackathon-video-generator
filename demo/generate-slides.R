@@ -16,7 +16,7 @@ url = paste0("https://media.giphy.com/media/",dat$data$id,"/giphy.gif")
 download.file(url,'assets/giphy.gif', mode = 'wb')
 
 # also, get a random nice thank you gif
-search = 'thank+you+very+much'
+search = 'THANKS!'
 get <- getURL(paste0("http://api.giphy.com/v1/gifs/search?q=",search,"&api_key=",Sys.getenv("GIPHY_KEY"),"&limit=1"))
 dat <- fromJSON(get)
 url = paste0("https://media.giphy.com/media/",dat$data$id,"/giphy.gif")

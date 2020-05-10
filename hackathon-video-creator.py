@@ -72,5 +72,5 @@ songList = fnmatch.filter(os.listdir("local"),"*.mp3")
 subprocess.Popen(["afplay", "local/"+random.choice(songList)], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 print('Continuing script...')
 # Playing the converted file 
-os.system("afplay -v 10 welcome.mp3") 
+os.system("afplay -v 10 -r 1.2 welcome.mp3") 
 
